@@ -1,1 +1,0 @@
-# Stovokor: A Minecraft Modpack
