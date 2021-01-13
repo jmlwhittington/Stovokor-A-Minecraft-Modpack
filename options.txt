@@ -160,7 +160,6 @@ key_key.minimap.togglefullscreen:52:CONTROL
 key_key.minimap.waypointhotkey:51
 key_key.minimap.togglemobs:0
 key_key.minimap.toggleingamewaypoints:0
-key_Open Skill GUI:21
 key_key.control:184
 soundCategory_master:1.0
 soundCategory_music:1.0
