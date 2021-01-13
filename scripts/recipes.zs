@@ -20,4 +20,17 @@ recipes.addShaped(<minecraft:saddle>, [[<ore:leather>, <ore:leather>, <ore:leath
 recipes.addShapeless(<minecraft:name_tag>, [<ore:string>, <ore:paper>]);
 recipes.addShapeless(<harvestcraft:freshmilkitem>, [<betteranimalsplus:goatmilk>]);
 recipes.addShaped(<waystones:waystone>, [[<ore:gemDiamond>, <minecraft:stonebrick>, <ore:gemDiamond>],[<minecraft:stonebrick>, <waystones:warp_stone>, <minecraft:stonebrick>], [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]]);
+recipes.addShapeless(<quark:rune:6>, [<quark:rune:0>, <ore:dyeRed>]);
+recipes.addShapeless(<quark:rune:6>, [<quark:rune:14>, <ore:dyeWhite>]);
+recipes.addShapeless(<quark:rune:7>, [<quark:rune:0>, <ore:dyeBlack>]);
+recipes.addShapeless(<quark:rune:7>, [<quark:rune:15>, <ore:dyeWhite>]);
+recipes.addShapeless(<quark:rune:8>, [<quark:rune:0>, <ore:dyeBlack>, <ore:dyeBlack>]);
+recipes.addShapeless(<quark:rune:8>, [<quark:rune:15>, <ore:dyeWhite>, <ore:dyeWhite>]);
+recipes.addShapeless(<quark:rune:9>, [<quark:rune:11>, <ore:dyeGreen>]);
+recipes.addShapeless(<quark:rune:9>, [<quark:rune:13>, <ore:dyeBlue>]);
+recipes.addShapeless(<quark:rune:10>, [<quark:rune:11>, <ore:dyeRed>]);
+recipes.addShapeless(<quark:rune:10>, [<quark:rune:14>, <ore:dyeBlue>]);
+recipes.addShapeless(<quark:rune:12>, [<quark:rune:0>, <ore:dyeBrown>]);
+recipes.addShapeless(<quark:rune:13>, [<quark:rune:4>, <ore:dyeBlue>]);
+recipes.addShapeless(<quark:rune:13>, [<quark:rune:11>, <ore:dyeYellow>]);
 //File End
