@@ -83,7 +83,9 @@ events.onPlayerChangedDimension(function(dim as crafttweaker.event.PlayerChanged
 		server.commandManager.executeCommand(server, "w "~dim.player.name~" You get the feeling that you are unable to use mounts here...");
 	}
 	if (dim.toWorld.dimension == 0 || dim.toWorld.dimension == 1 || dim.toWorld.dimension == -1 || dim.toWorld.dimension == 3 ) {
-		server.commandManager.executeCommand(server, "w "~dim.player.name~" You have regained the ability to use mounts!");
+		if (dim.fromWorld.dimension != 0 && dim.fromWorld.dimension != 1 && dim.fromWorld.dimension != -1 && dim.fromWorld.dimension != 3) {
+			server.commandManager.executeCommand(server, "w "~dim.player.name~" You have regained the ability to use mounts!");
+		}
 	}
 });
 
