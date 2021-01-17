@@ -1,0 +1,3 @@
+[
+	{"dimension": 7, "mobs": [{"mob": "twilightforest:mist_wolf", "weight": 10, "groupcountmin": 1, "groupcountmax": 1}, {"mob": "twilightforest:king_spider", "weight": 10, "groupcountmin": 1, "groupcountmax": 1}, {"mob": "twilightforest:skeleton_druid", "weight": 30, "groupcountmin": 1, "groupcountmax": 2}, {"mob": "twilightforest:winter_wolf", "weight": 10, "groupcountmin": 1, "groupcountmax": 4}, {"mob": "twilightforest:mosquito_swarm", "weight": 40, "groupcountmin": 1, "groupcountmax": 3}]}
+]
