@@ -1,8 +1,8 @@
 [
 	{"onjoin": true, "mob": ["betteranimalsplus:nautilus", "betteranimalsplus:squirrel", "exoticbirds:parrot", "faunanatural:european_roe_deer", "faunanatural:nautilus", "pvj:pvj_duck", "pvj:pvj_grizzly_bear", "zawa:grizzlybear", "zawa:moose", "zawa:pacificwalrus", "zawa:polarbear", "pvj:pvj_coyote"], "result": "deny"},
 	{"dimension": 0, "block": ["ore:treeLeaves", "ore:logWood"], "result": "deny"},
-	{"dimension": -1, "mob": "minecraft:wither", "result": "allow"},
-	{"mob": "minecraft:wither", "result": "deny"},
+	{"onjoin": true, "dimension": -1, "mob": "minecraft:wither", "result": "allow"},
+	{"onjoin": true, "mob": "minecraft:wither", "result": "deny"},
 	{"dimension": 7, "mod": ["zawa", "faunanatural", "exoticbirds", "lilcritters", "iceandfire", "fossil"], "result": "deny"},
 	{"dimension": 7, "biome": ["Dark Forest", "Dark Forest Center"], "mob": ["twilightforest:mist_wolf", "twilightforest:king_spider", "twilightforest:skeleton_druid"], "result": "deny"},
 	{"dimension": 7, "biome": "Snowy Forest", "mob": "twilightforest:winter_wolf", "maxcount": {"amount": 70, "hostile": true, "perchunk": true}, "result": "allow"},
