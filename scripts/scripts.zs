@@ -16,8 +16,6 @@ mods.jei.JEI.removeAndHide(<grapplemod:staffupgradeitem>);
 mods.jei.JEI.removeAndHide(<grapplemod:staffupgradeitem>);
 mods.jei.JEI.removeAndHide(<zawa:pinniped_kibble>);
 mods.jei.JEI.removeAndHide(<zawa:pinniped_vial>);
-mods.jei.JEI.removeAndHide(<pvj:raw_duck>);
-mods.jei.JEI.removeAndHide(<pvj:cooked_duck>);
 mods.jei.JEI.removeAndHide(<exoticbirds:parrot_egg>);
 mods.jei.JEI.removeAndHide(<exoticbirds:cassowary_egg>);
 mods.jei.JEI.removeAndHide(<exoticbirds:cardinal_egg>);
