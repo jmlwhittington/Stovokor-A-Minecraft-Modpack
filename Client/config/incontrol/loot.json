@@ -1,0 +1,8 @@
+[
+	{"mob": "minecraft:polar_bear", "item": "zawa:polar_bear_hide", "itemcount": "0-2/1-3/2-4"},
+	{"mob": "iceandfire:gorgon", "remove": "iceandfire:gorgon_head"},
+	{"mob": "iceandfire:gorgon", "item": "grimoireofgaia:bust_gorgon", "itemcount": "1/1/1"},
+	{"mob": "grimoireofgaia:cecaelia", "item": "grimoireofgaia:food_coalfish", "itemcount": "0-1/0-2/0-3"},
+	{"mob": "grimoireofgaia:sharko", "item": "grimoireofgaia:food_coalfish", "itemcount": "0-1/0-2/0-3"},
+	{"mob": "grimoireofgaia:mermaid", "item": "grimoireofgaia:food_coalfish", "itemcount": "0-1/0-2/0-3"}
+]

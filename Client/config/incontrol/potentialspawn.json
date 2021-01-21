@@ -1,0 +1,4 @@
+[
+	{"remove": ["exoticbirds:parrot", "faunanatural:european_roe_deer", "faunanatural:nautilus", "pvj:pvj_grizzly_bear", "zawa:grizzlybear", "zawa:moose", "zawa:pacificwalrus", "zawa:polarbear", "zawa:animaltrader", "zawa:botanist", "zawa:feedtrader", "zawa:zookeeper", "quark:crab", "pvj:pvj_coyote", "exoticbirds:cassowary", "exoticbirds:toucan", "exoticbirds:robin", "exoticbirds:cardinal", "faunanatural:american_bison", "zawa:macaw", "faunanatural:common_ostrich"]},
+	{"dimension": 7, "mobs": [{"mob": "twilightforest:mist_wolf", "weight": 10, "groupcountmin": 1, "groupcountmax": 4}, {"mob": "twilightforest:king_spider", "weight": 10, "groupcountmin": 1, "groupcountmax": 4}, {"mob": "twilightforest:skeleton_druid", "weight": 10, "groupcountmin": 1, "groupcountmax": 4}, {"mob": "twilightforest:winter_wolf", "weight": 5, "groupcountmin": 1, "groupcountmax": 4}, {"mob": "twilightforest:mosquito_swarm", "weight": 100, "groupcountmin": 4, "groupcountmax": 4}]}
+]
