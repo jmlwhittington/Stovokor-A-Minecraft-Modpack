@@ -13,6 +13,17 @@ mods.jei.JEI.removeAndHide(<effortlessbuilding:reach_upgrade3>);
 mods.jei.JEI.removeAndHide(<bibliocraft:maptool>);
 mods.jei.JEI.removeAndHide(<grapplemod:launcheritem>);
 mods.jei.JEI.removeAndHide(<grapplemod:staffupgradeitem>);
+mods.jei.JEI.removeAndHide(<grapplemod:staffupgradeitem>);
+mods.jei.JEI.removeAndHide(<zawa:pinniped_kibble>);
+mods.jei.JEI.removeAndHide(<zawa:pinniped_vial>);
+mods.jei.JEI.removeAndHide(<pvj:raw_duck>);
+mods.jei.JEI.removeAndHide(<pvj:cooked_duck>);
+mods.jei.JEI.removeAndHide(<exoticbirds:parrot_egg>);
+mods.jei.JEI.removeAndHide(<exoticbirds:cassowary_egg>);
+mods.jei.JEI.removeAndHide(<exoticbirds:cardinal_egg>);
+mods.jei.JEI.removeAndHide(<exoticbirds:robin_egg>);
+mods.jei.JEI.removeAndHide(<exoticbirds:toucan_egg>);
+mods.jei.JEI.removeAndHide(<zawa:macaw_egg>);
 recipes.removeShaped(<harvestcraft:market>, [[<ore:plankWood>, <ore:wool>, <ore:plankWood>],[<ore:wool>, <minecraft:emerald>, <ore:wool>], [<ore:plankWood>, <ore:wool>, <ore:plankWood>]]);
 recipes.removeShaped(<harvestcraft:shippingbin>, [[<ore:plankWood>, <ore:logWood>, <ore:plankWood>],[<ore:logWood>, <minecraft:emerald>, <ore:logWood>], [<ore:plankWood>, <ore:logWood>, <ore:plankWood>]]);
 recipes.removeShaped(<galacticraftplanets:mars_machine:8>, [[<galacticraftplanets:item_basic_mars:2>, <galacticraftcore:basic_item:19>, <galacticraftplanets:item_basic_mars:2>],[<galacticraftplanets:item_basic_mars:5>, <galacticraftcore:basic_item:14>, <galacticraftplanets:item_basic_mars:5>], [<galacticraftplanets:item_basic_mars:2>, <galacticraftcore:aluminum_wire:0>, <galacticraftplanets:item_basic_mars:2>]]);
@@ -75,6 +86,9 @@ events.onPlayerPickupItem(function(pickup as crafttweaker.event.PlayerPickupItem
 		if (pickup.player.hasGameStage("diamondBlock") == false && pickup.player.hasGameStage("diamondStart") == true && pickup.player.foodStats.foodLevel > 10 && pickup.player.y > 63) {
 			pickup.player.addGameStage("diamondBlock");
 		}
+	}
+	if (pickup.item.item.name == "tile.grimoireofgaia.bust_gorgon") {
+		server.commandManager.executeCommand(server, "advancement grant "~pickup.player.name~" only iceandfire:iceandfire/gorgon_head");
 	}
 });
 
