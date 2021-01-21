@@ -1,5 +1,5 @@
 [
-	{"onjoin": true, "mob": ["betteranimalsplus:nautilus", "betteranimalsplus:squirrel", "exoticbirds:parrot", "faunanatural:european_roe_deer", "faunanatural:nautilus", "pvj:pvj_duck", "pvj:pvj_grizzly_bear", "zawa:grizzlybear", "zawa:moose", "zawa:pacificwalrus", "zawa:polarbear", "pvj:pvj_coyote"], "result": "deny"},
+	{"onjoin": true, "mob": ["betteranimalsplus:nautilus", "betteranimalsplus:squirrel", "exoticbirds:parrot", "faunanatural:european_roe_deer", "faunanatural:nautilus", "pvj:pvj_duck", "pvj:pvj_grizzly_bear", "zawa:grizzlybear", "zawa:moose", "zawa:pacificwalrus", "zawa:polarbear", "pvj:pvj_coyote", "quark:crab", "exoticbirds:cassowary", "exoticbirds:toucan", "exoticbirds:robin", "exoticbirds:cardinal", "faunanatural:american_bison", "zawa:macaw", "faunanatural:common_ostrich"], "result": "deny"},
 	{"dimension": 0, "block": ["ore:treeLeaves", "ore:logWood"], "result": "deny"},
 	{"onjoin": true, "dimension": -1, "mob": "minecraft:wither", "result": "allow"},
 	{"onjoin": true, "mob": "minecraft:wither", "result": "deny"},
