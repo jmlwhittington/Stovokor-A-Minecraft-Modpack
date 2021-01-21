@@ -22,6 +22,8 @@ mods.jei.JEI.removeAndHide(<exoticbirds:cardinal_egg>);
 mods.jei.JEI.removeAndHide(<exoticbirds:robin_egg>);
 mods.jei.JEI.removeAndHide(<exoticbirds:toucan_egg>);
 mods.jei.JEI.removeAndHide(<zawa:macaw_egg>);
+mods.jei.JEI.removeAndHide(<zawa:ralphiki_book>);
+mods.jei.JEI.removeAndHide(<zawa:exploration_guide>);
 recipes.remove(<harvestcraft:market>);
 recipes.remove(<harvestcraft:shippingbin>);
 recipes.remove(<galacticraftplanets:mars_machine:8>);
