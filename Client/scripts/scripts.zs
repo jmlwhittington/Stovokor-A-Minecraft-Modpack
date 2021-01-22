@@ -94,11 +94,11 @@ events.onPlayerPickupItem(function(pickup as crafttweaker.event.PlayerPickupItem
 });
 
 events.onPlayerChangedDimension(function(dim as crafttweaker.event.PlayerChangedDimensionEvent) {
-	if (dim.toWorld.dimension != 0 && dim.toWorld.dimension != 1 && dim.toWorld.dimension != -1 && dim.toWorld.dimension != 3 && dim.world.dimension != -31 && dim.world.dimension != -30 && dim.world.dimension != -29 && dim.world.dimension != -28 && dim.world.dimension != -27) {
+	if (dim.toWorld.dimension != 0 && dim.toWorld.dimension != 1 && dim.toWorld.dimension != -1 && dim.toWorld.dimension != 3 && dim.toWorld.dimension != -31 && dim.toWorld.dimension != -30 && dim.toWorld.dimension != -29 && dim.toWorld.dimension != -28 && dim.toWorld.dimension != -27) {
 		server.commandManager.executeCommand(server, "w "~dim.player.name~" You get the feeling that you are unable to use mounts here...");
 	}
 	if (dim.toWorld.dimension == 0 || dim.toWorld.dimension == 1 || dim.toWorld.dimension == -1 || dim.toWorld.dimension == 3 ) {
-		if (dim.fromWorld.dimension != 0 && dim.fromWorld.dimension != 1 && dim.fromWorld.dimension != -1 && dim.fromWorld.dimension != 3 && dim.world.dimension != -31 && dim.world.dimension != -30 && dim.world.dimension != -29 && dim.world.dimension != -28 && dim.world.dimension != -27) {
+		if (dim.fromWorld.dimension != 0 && dim.fromWorld.dimension != 1 && dim.fromWorld.dimension != -1 && dim.fromWorld.dimension != 3 && dim.fromWorld.dimension != -31 && dim.fromWorld.dimension != -30 && dim.fromWorld.dimension != -29 && dim.fromWorld.dimension != -28 && dim.fromWorld.dimension != -27) {
 			server.commandManager.executeCommand(server, "w "~dim.player.name~" You have regained the ability to use mounts!");
 		}
 	}
