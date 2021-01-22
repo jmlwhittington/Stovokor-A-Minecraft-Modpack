@@ -94,18 +94,18 @@ events.onPlayerPickupItem(function(pickup as crafttweaker.event.PlayerPickupItem
 });
 
 events.onPlayerChangedDimension(function(dim as crafttweaker.event.PlayerChangedDimensionEvent) {
-	if (dim.toWorld.dimension != 0 && dim.toWorld.dimension != 1 && dim.toWorld.dimension != -1 && dim.toWorld.dimension != 3) {
+	if (dim.toWorld.dimension != 0 && dim.toWorld.dimension != 1 && dim.toWorld.dimension != -1 && dim.toWorld.dimension != 3 && mount.world.dimension != -31 && mount.world.dimension != -30 && mount.world.dimension != -29 && mount.world.dimension != -28 && mount.world.dimension != -27) {
 		server.commandManager.executeCommand(server, "w "~dim.player.name~" You get the feeling that you are unable to use mounts here...");
 	}
 	if (dim.toWorld.dimension == 0 || dim.toWorld.dimension == 1 || dim.toWorld.dimension == -1 || dim.toWorld.dimension == 3 ) {
-		if (dim.fromWorld.dimension != 0 && dim.fromWorld.dimension != 1 && dim.fromWorld.dimension != -1 && dim.fromWorld.dimension != 3) {
+		if (dim.fromWorld.dimension != 0 && dim.fromWorld.dimension != 1 && dim.fromWorld.dimension != -1 && dim.fromWorld.dimension != 3 && mount.world.dimension != -31 && mount.world.dimension != -30 && mount.world.dimension != -29 && mount.world.dimension != -28 && mount.world.dimension != -27) {
 			server.commandManager.executeCommand(server, "w "~dim.player.name~" You have regained the ability to use mounts!");
 		}
 	}
 });
 
 events.onEntityMount(function(mount as crafttweaker.event.EntityMountEvent) {
-	if (mount.world.dimension != 0 && mount.world.dimension != 1 && mount.world.dimension != -1 && mount.world.dimension != 3 ) {
+	if (mount.world.dimension != 0 && mount.world.dimension != 1 && mount.world.dimension != -1 && mount.world.dimension != 3 && mount.world.dimension != -31 && mount.world.dimension != -30 && mount.world.dimension != -29 && mount.world.dimension != -28 && mount.world.dimension != -27) {
 		mount.cancel();
 	}
 });
