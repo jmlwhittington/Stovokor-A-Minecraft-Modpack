@@ -49,7 +49,6 @@ recipes.addShapeless(<quark:rune:10>, [<quark:rune:14>, <ore:dyeBlue>]);
 recipes.addShapeless(<quark:rune:12>, [<quark:rune:0>, <ore:dyeBrown>]);
 recipes.addShapeless(<quark:rune:13>, [<quark:rune:4>, <ore:dyeBlue>]);
 recipes.addShapeless(<quark:rune:13>, [<quark:rune:11>, <ore:dyeYellow>]);
-recipes.addShapeless(<minecraft:string>, [<immersiveengineering:material:4>]);
 recipes.addShapeless(<chisel:limestone2:7>, [<pvj:limestone>]);
 recipes.addShapeless(<chisel:marble2:7>, [<pvj:marble>]);
 recipes.addShapeless(<chisel:basalt2:7>, [<pvj:basalt>]);
