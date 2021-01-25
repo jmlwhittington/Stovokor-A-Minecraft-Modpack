@@ -1,3 +1,4 @@
 # rules.txt | numbers are automatically added
 Obey the Admins
-Do not grief
+Do not grief (this includes building directly outside of a chunk claim just to annoy or otherwise inconvenience others, harming or capturing pets/mounts/farm animals/etc. belonging to another player, and anything else of this nature)
+Do not abuse server limits, such as trying to lag the server out
