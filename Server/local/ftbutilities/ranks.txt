@@ -9,6 +9,7 @@ ftbutilities.chunkloader.load_offline: false
 
 [vip]
 power: 20
+ftbutilities.claims.max_chunks: 200
 
 [admin]
 power: 100
