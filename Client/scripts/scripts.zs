@@ -24,14 +24,12 @@ mods.jei.JEI.removeAndHide(<zawa:macaw_egg>);
 mods.jei.JEI.removeAndHide(<zawa:ralphiki_book>);
 mods.jei.JEI.removeAndHide(<zawa:exploration_guide>);
 mods.jei.JEI.removeAndHide(<iceandfire:gorgon_head>);
-recipes.remove(<harvestcraft:market>);
-recipes.remove(<harvestcraft:shippingbin>);
 recipes.remove(<galacticraftplanets:mars_machine:8>);
 recipes.remove(<waystones:waystone>);
 recipes.remove(<zawa:coin>);
-recipes.addShaped(<minecraft:diamond_horse_armor>, [[<ore:gemDiamond>, null, <ore:gemDiamond>], [<ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>], [<ore:gemDiamond>, null, <ore:gemDiamond>]]);
-recipes.addShaped(<minecraft:golden_horse_armor>, [[<ore:ingotGold>, null, <ore:ingotGold>], [<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>], [<ore:ingotGold>, null, <ore:ingotGold>]]);
-recipes.addShaped(<minecraft:iron_horse_armor>, [[<ore:ingotIron>, null, <ore:ingotIron>], [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], [<ore:ingotIron>, null, <ore:ingotIron>]]);
+recipes.addShaped(<minecraft:diamond_horse_armor>, [[null, null, <ore:gemDiamond>], [<ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>], [<ore:gemDiamond>, null, <ore:gemDiamond>]]);
+recipes.addShaped(<minecraft:golden_horse_armor>, [[null, null, <ore:ingotGold>], [<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>], [<ore:ingotGold>, null, <ore:ingotGold>]]);
+recipes.addShaped(<minecraft:iron_horse_armor>, [[null, null, <ore:ingotIron>], [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], [<ore:ingotIron>, null, <ore:ingotIron>]]);
 recipes.addShaped(<minecraft:saddle>, [[<ore:leather>, <ore:leather>, <ore:leather>], [<ore:leather>, null, <ore:leather>], [<ore:ingotIron>, null, <ore:ingotIron>]]);
 recipes.addShapeless(<minecraft:name_tag>, [<ore:string>, <ore:paper>]);
 recipes.addShapeless(<harvestcraft:freshmilkitem>, [<betteranimalsplus:goatmilk>]);
@@ -55,7 +53,6 @@ recipes.addShapeless(<chisel:basalt2:7>, [<pvj:basalt>]);
 recipes.addShapeless(<pvj:limestone>, [<chisel:limestone2:7>]);
 recipes.addShapeless(<pvj:marble>, [<chisel:marble2:7>]);
 recipes.addShapeless(<pvj:basalt>, [<chisel:basalt2:7>]);
-
 
 mods.orestages.OreStages.addReplacement("diamondBlock", <minecraft:diamond_ore>, <minecraft:stone>);
 
